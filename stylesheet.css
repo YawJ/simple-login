@@ -1,0 +1,136 @@
+/* stylesheet for login page by Jude Aquila */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Calibri", sans-serif;
+	background-color: #f1f1f1;
+}
+
+h2, h4 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 16px;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+#topBar {
+	width: 100%;
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #333;
+	background-color: #666;
+}
+
+#container {
+	width: 100%;
+}
+
+.containerBody {
+	width: 1000px;
+	margin: 0px auto;
+	padding: 12px;
+	border: 0;
+}
+
+.containerForm {
+	width: 500px;
+	margin: 100px auto;
+	padding: 16px;
+	border: 1px solid #333;
+	background-color: #e4e4e4;
+}
+
+.formAvatar {
+	width: 50px;
+	margin: 0px auto;
+	padding: 8px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.formFields {
+	margin: 0px auto;
+	width: 450px;
+	
+	border: 0;
+}
+
+label {
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px 24px;
+	box-sizing: border-box;
+	border: 0;
+	border-bottom: 1px solid #333;
+	background-color: #e4e4e4;
+}
+
+button {
+	width: 100px;
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+	border: 0;
+	border-radius: 10px;
+	background-color: #333;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #999;
+	color: #333;
+}
+
+.forgotPassword {
+	margin: 8px 0;
+	padding: 12px;
+	background-color: #999;
+	color: #fff;
+	text-align: center;
+}
+
+.forgotPassword a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.forgotPassword a:hover {
+	color: #333;
+}
+
+span {
+	font-style: italic;
+}
+
+#footer {
+	width: 100%;
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #333;
+	background-color: #666;
+	bottom: 0;
+	position: fixed;
+}
